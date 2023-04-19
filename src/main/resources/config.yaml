@@ -1,0 +1,17 @@
+browser:
+  browser_name: chrome
+  headless: true
+  attach_screenshot: true
+  web_element_timeout: 10
+environment:
+  int:
+    env_name: int
+    app_url: http://automationpractice.pl/index.php
+    title: My Store
+    active: true
+
+  test:
+    env_name: test
+    app_url: https://logback.qos.ch/
+    title: Logback Home
+    active: false
